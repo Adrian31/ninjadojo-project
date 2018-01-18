@@ -200,3 +200,140 @@ a#menu svg{
   padding: 4px 0 0 0;
   margin: 2% 0 2% 0;
 }
+/*
+*
+* Products
+*
+*/
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.product-one-img{
+  padding: 2%;
+}
+
+.product-two-img{
+  padding: 2%;
+}
+.product-image{
+  border-radius: 10px;
+}
+
+.product-one-info {
+  padding: 2%;
+}
+
+.product-two-info {
+  padding: 2%;
+}
+
+.product-info{
+  padding: 5% 5% 5% 0;
+}
+.product-two-info {
+  padding: 2%;
+}
+
+.product-title{
+  margin-top: 0;
+  color: #e8677e;
+}
+
+.action-button {
+  text-align: center;
+  width: 20%;
+  margin: 0 40% 0 40%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 1px solid #e8677e;
+  border-radius: 3px;
+  color: #e8677e;
+  background-color: transparent;
+}
+
+/*
+*
+* Contact Us
+*
+*/
+.contact-title{
+  color: #e8677e;
+  margin-top: 0;
+}
+.contact-us {
+  text-align: center;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 5%;
+}
+
+.contact-form{
+  background-color: white;
+  border: .5px solid red;
+  border-radius: 5px;
+  width: 30%;
+  margin: auto;
+  box-shadow: 2px 2px 4px #e8677e;
+  padding: 3%;
+}
+.input-name{
+  width: 90%;
+  margin: auto;
+  margin: 2%;
+}
+.input-email{
+  width: 90%;
+  margin: auto;
+  margin: 2%;
+}
+.input-message{
+  width: 90%;
+  margin: 2%;
+  height: 10em;
+}
+
+.contact-button{
+  float: right;
+  margin-right: 4.5%;
+  width: 30%;
+  color: white;
+  background-color: #e8677e;
+  border-color: 1px solid #e8677e;
+  border-radius: 3px;
+}
+/*
+*
+* Footer
+*
+*/
+.footer{
+  width: 100%;
+  display: flex;
+}
+.footer > * {
+  padding: 2%;
+}
+.contact-logo{
+    width: 33.33%;
+    color: #e8677e
+}
+.contact-address{
+  width: 33.33%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-details{
+  width: 33.33%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+
+}
