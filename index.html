@@ -11,9 +11,44 @@
 </head>
 <body>
   <div class="grid-container">
+    <nav class="nav-logo">
+      <h1 class="logo">Company</h1>
+    </nav>
 
+    <nav class="nav-menu hamburger">
+      <a id="menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+        </svg>
+      </a>
+    </nav>
+
+    <nav id="drawer" class="nav-bar nav-menu">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">About</a></li>
+        <li class="nav__item"><a href="#">Products</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   </div>
 
+    <script>
+    /*
+     * Open the drawer when the menu icon is clicked.
+     */
+    var menu = document.querySelector('#menu');
+    var main = document.querySelector('main');
+    var drawer = document.querySelector('#drawer');
+
+    menu.addEventListener('click', function(e) {
+      drawer.classList.toggle('open');
+      e.stopPropagation();
+    });
+    main.addEventListener('click', function() {
+      drawer.classList.remove('open');
+    });
+
+  </script>
 
 </body>
 
