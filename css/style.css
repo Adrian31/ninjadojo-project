@@ -1,0 +1,48 @@
+/*
+*
+* Global style
+*
+*/
+*{
+  font-family: 'Roboto', sans-serif;
+  width: auto;
+}
+
+/*
+*
+* Grid container
+*
+*/
+
+.nav-logo { grid-area: nav-logo; }
+.nav-menu { grid-area: nav-menu; }
+.main { grid-area: main; }
+.about-us { grid-area: about-us; }
+.about-us-col-1 { grid-area: about-us-col-1; }
+.about-us-col-2 { grid-area: about-us-col-2; }
+.horizontal-rule { grid-area: horizontal-rule;}
+.product-one-img {grid-area: product-one-img }
+.product-one-info {grid-area: product-one-info }
+.product-two-img {grid-area: product-two-img }
+.product-two-info {grid-area: product-two-info }
+.contact-us {grid-area: contact-us}
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'nav-logo nav-logo nav-logo nav-menu nav-menu nav-menu'
+    'main main main main main main'
+    'about-us about-us about-us about-us about-us about-us'
+    'about-us-col-1 about-us-col-1 about-us-col-1 about-us-col-2 about-us-col-2 about-us-col-2'
+    'horizontal-rule horizontal-rule horizontal-rule horizontal-rule horizontal-rule horizontal-rule'
+    'product-one-img product-one-img product-one-img product-one-img product-one-info product-one-info'
+    'product-two-info product-two-info product-two-img product-two-img product-two-img product-two-img'
+    'contact-us contact-us contact-us contact-us contact-us contact-us'
+    'footer footer footer footer footer footer'
+}
+
+.grid-container > * {
+  width: 100%
+  padding: 2%;
+}
