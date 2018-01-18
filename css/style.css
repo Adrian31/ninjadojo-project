@@ -166,3 +166,37 @@ a#menu svg{
 .main > * {
   margin: 0px;
 }
+/*
+*
+* About US
+*
+*/
+
+.about-us > *{
+  padding: 2%;
+  margin-bottom: 0px;
+}
+
+.about-us-title {
+  color: #e8677e;
+}
+
+.about-us-col-1 > *{
+  padding: 4%;
+}
+.about-us-col-2 > *{
+  padding: 4%;
+}
+/*
+*
+* Horizontal rule
+*
+*/
+.horizontal-rule {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  padding: 4px 0 0 0;
+  margin: 2% 0 2% 0;
+}
